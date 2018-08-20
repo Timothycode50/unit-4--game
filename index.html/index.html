@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<html>
+<head>
+<title>CrystalCollector</title>
+<script type="text/javascript">
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+
+function generateRandomNumber() {
+    var wins = parseInt(document.getElementById("wins").value;
+    var losses = parseInt(document.getElementById("losses").value;
+   var rand = Math.floor(Math.random()*(max- min + 1))+ min;
+   document.getElementById("display").innerTex = rand;
+}
+</script>
+
+</head>
+<body>
+    <label>Wins</label>
+    <input id="wins" type="text" /><br/>
+    <label>Losses</label>
+    <input id="losses" type="text" /><br/>
+
+    <button onclick="generateRandomNumber();>Generate</button>
+    <div id="display"style="font-size:60px;"></div>"
+    
+</body>
+</html>

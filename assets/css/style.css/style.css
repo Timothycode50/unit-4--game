@@ -1,0 +1,9 @@
+<script type="text/javascript">
+
+function generateRandomNumber() {
+    var wins = parseInt(document.getElementById("wins").value;
+    var losses = parseInt(document.getElementById("losses").value;
+   var rand = Math.floor(Math.random()*(max- min + 1))+ min;
+   document.getElementById("display").innerTex = rand;
+}
+</script>
