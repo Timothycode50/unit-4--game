@@ -2,27 +2,27 @@
 <html lang="en-us">
 <html>
 <head>
-<title>CrystalCollector</title>
-<script type="text/javascript">
-<link href="css/style.css" type="text/css" rel="stylesheet" />
+ <meta charset="UTF-8"> 
+     <title>CrystalCollector</title>
 
-function generateRandomNumber() {
-    var wins = parseInt(document.getElementById("wins").value;
-    var losses = parseInt(document.getElementById("losses").value;
-   var rand = Math.floor(Math.random()*(max- min + 1))+ min;
-   document.getElementById("display").innerTex = rand;
-}
-</script>
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+         <link rel="stylesheet"type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <label>Wins</label>
-    <input id="wins" type="text" /><br/>
-    <label>Losses</label>
-    <input id="losses" type="text" /><br/>
+    <p id="result"></p>
+    
 
-    <button onclick="generateRandomNumber();>Generate</button>
-    <div id="display"style="font-size:60px;"></div>"
+    
+      <div class="crystals">  
+     
+    <img class="image" id="image1" src="assets/images/crystal1.png">
+    <img class="image" id="image2" src="assets/images/crystal2.png">
+    <img class="image" id="image3" src="assets/images/crystal3.png">
+    <img class="image" id="image4" src="assets/images/crystal4.png">
+</div>
+
+<script type="text/javascript" src="assets/js"></script>
+
     
 </body>
 </html>

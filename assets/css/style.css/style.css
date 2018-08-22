@@ -1,9 +1,14 @@
-<script type="text/javascript">
-
-function generateRandomNumber() {
-    var wins = parseInt(document.getElementById("wins").value;
-    var losses = parseInt(document.getElementById("losses").value;
-   var rand = Math.floor(Math.random()*(max- min + 1))+ min;
-   document.getElementById("display").innerTex = rand;
+.crystals{
+  display: flex;
+  justify-content: space-around;
+  border:1pxs solid red;
+  align-items:center;
 }
-</script>
+
+.crystal{
+  border:1px solid green;
+  height: 200px;
+  width: 200px
+
+
+}
