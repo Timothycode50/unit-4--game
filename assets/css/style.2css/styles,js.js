@@ -1,22 +1,37 @@
-var random_result;
-var lost;
-var win;
+var blueCrystal = 0;
+var clearCrystal = 0;
+var greenCrystal = 0;
+var redCrystal = 0;
 
-for(var i = 0; i < 4; i++){
 
-    var random = Math.floor(Math.random() * 12);
-    console.log(random);
-    var crystal = $("<div>");
-        crystal.attr({
-            "class": 'crystal',
-            "data-random: random
-        });
+var currentScore = 0;
+var targetScore = 0;
 
-    $(".crystals").append(crystal);
-}
+var winCount = 0;
+var lossCount = 0;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+alert(test);
+var crystalValues = {};
+
+crystalValues[1] = Math.floor(Math.random()*12+1);
+crystalValues[2] = Math.floor(Math.random()*12+1);
+crystalValues[3] = Math.floor(Math.random()*12+1);
+crystalValues[4] = Math.floor(Math.random()*12+1);
+
+//.... more code here
 
 
 function getCrystalHandler(crystalKey) {
